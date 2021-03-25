@@ -1,8 +1,10 @@
 {
+  "homepage": "http://maishamir.github.io/seng411-experiment",
   "name": "number_trial",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "-": "0.0.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -12,6 +14,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
+    "save-dev": "0.0.1-security",
     "seedrandom": "^3.0.5",
     "web-vitals": "^1.0.1"
   },
