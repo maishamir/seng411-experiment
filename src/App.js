@@ -6,6 +6,7 @@ import EndScreen from "./components/EndScreen";
 import "./App.css";
 import axios from "axios";
 import "dotenv";
+require("dotenv").config();
 
 export const DataSubmissionStatus = Object.freeze({
   NOT_SUBMITTED: 1,
@@ -29,7 +30,7 @@ export default class App extends React.Component {
     this.userID = Math.floor(Math.random() * 90000) + 10000;
     this.groupCode = 0;
 
-    this.iterationPerTrial = 3;
+    this.iterationPerTrial = 7;
     this.trialParameters = [
       { format: Format.TEXT, n: 3, instructType: 1 },
       { format: Format.TEXT, n: 5, instructType: 2 },
